@@ -1,0 +1,283 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Coders</title>
+<link rel="stylesheet" type="text/css" href="../resources/header.css" />
+<link rel="stylesheet" type="text/css" href="../resources/common.css" />
+<link rel="stylesheet" type="text/css" href="../resources/menu.css" />
+<link rel="stylesheet" type="text/css" href="../resources/display.css" />
+<link rel="stylesheet" type="text/css" href="../resources/login.css" />
+<link rel="stylesheet" type="text/css" href="../resources/sidebar.css" />
+<link rel="stylesheet" type="text/css" href="../resources/content.css" />
+<link rel="stylesheet" type="text/css" href="../resources/footer.css" />
+
+<script type="text/javascript">
+
+var foo = null; // object
+var open=0;
+var top=281;
+var foo=document.getElementById('login');
+
+function browser_detect()
+{
+	if(navigator.appName!="Mozilla")
+	{
+		alert("Browser Not Supported!\ncOdErS is a CSS3 complied web design, due to which some features of the website may not work properly on your browser. For best experience please view this website in the latest Mozilla Firefox or Netscape browser.");
+	}
+	else
+	{ 
+		alert(navigator.appName);
+	}
+}
+
+function animate()
+{
+	if(open==0)
+	{
+		top=top-2;
+		document.getElementById('login').style.top=top.valueOf()+"px";
+		if(top<128)
+		{
+			top=128;
+			document.getElementById('login').style.top='128px';
+			open=1;
+			return;
+		}
+	}
+	else
+	{
+		top=top+2;
+		document.getElementById('login').style.top=top.valueOf()+"px";
+		if(top>281)
+		{
+			top=281;
+			document.getElementById('login').style.top='281px';
+			open=0;
+			return;
+		}
+	}
+	setTimeout(animate,5);
+}
+
+{scripts}
+
+
+</script>
+</head>
+
+<body onload="javascript:browser_detect();">
+
+	<div id="header">
+		<h1>cOdE<colored>rS</colored></h1>
+        <h2>Think Programming!</h2>
+		{User-State}
+	</div>
+	
+    <div id="menu">
+		<ul>
+			<li><a href="../home"><span>Home</span></a></li>
+			<li><a href="../challenges"><span>Challenges</span></a></li>
+			<li><a href="../ranks"><span>Ranks</span></a></li>
+            <!--<li><a href="tutorials.php"><span>Tutorials</span></a></li>-->
+			<li><a href="../techtalks"><span>Tech Talks</span></a></li>
+			<li><a href="../messages"><span>Contact Us</span></a></li>
+			<li><a href="../about_us"><span>About Us</span></a></li>
+		</ul>
+		<div class="clear"></div>
+	</div>
+	<div id="display">				
+		<img src="../resources/images/coder.png" />
+
+		<p>
+			<h1>Welcome to cOdE<colored>rS</colored></h1>
+			<ul>
+        	    <li><h2>Learn the art of programming.</h2></li> 
+                <li><h2>Compete with others, show your programming skills.</h2></li>
+                <li><h2>Share your ideas.</h2></li>
+         	</ul>
+		</p>
+
+		{Login}
+
+	</div>
+
+	<div id="mainbody">
+		<div id="sidebar">
+			<div id="sidebar-div">
+				<div id="banner">
+				<img src="../resources/images/kiet_banner.jpg" class="center" />
+
+
+
+<script language="JavaScript1.2">
+
+/*
+Cross browser Marquee script- © Dynamic Drive (www.dynamicdrive.com)
+For full source code, 100's more DHTML scripts, and Terms Of Use, visit http://www.dynamicdrive.com
+Credit MUST stay intact
+*/
+
+//Specify the marquee's width (in pixels)
+var marqueewidth="230px"
+//Specify the marquee's height
+var marqueeheight="25px"
+//Specify the marquee's marquee speed (larger is faster 1-10)
+var marqueespeed=2
+//configure background color:
+var marqueebgcolor="#FFC68C"
+//Pause marquee onMousever (0=no. 1=yes)?
+var pauseit=0
+
+//Specify the marquee's content (don't delete <nobr> tag)
+//Keep all content on ONE line, and backslash any single quotations (ie: that\'s great):
+
+var marqueecontent='<nobr>Department Of <strong>Information Technology, K.I.E.T.</strong></nobr>'
+
+
+////NO NEED TO EDIT BELOW THIS LINE////////////
+marqueespeed=(document.all)? marqueespeed : Math.max(1, marqueespeed-1) //slow speed down by 1 for NS
+var copyspeed=marqueespeed
+var pausespeed=(pauseit==0)? copyspeed: 0
+var iedom=document.all||document.getElementById
+if (iedom)
+document.write('<span id="temp" style="visibility:hidden;position:absolute;top:-100px;left:-9000px">'+marqueecontent+'</span>')
+var actualwidth=''
+var cross_marquee, ns_marquee
+
+function populate(){
+if (iedom){
+cross_marquee=document.getElementById? document.getElementById("iemarquee") : document.all.iemarquee
+cross_marquee.style.left=parseInt(marqueewidth)+8+"px"
+cross_marquee.innerHTML=marqueecontent
+actualwidth=document.all? temp.offsetWidth : document.getElementById("temp").offsetWidth
+}
+else if (document.layers){
+ns_marquee=document.ns_marquee.document.ns_marquee2
+ns_marquee.left=parseInt(marqueewidth)+8
+ns_marquee.document.write(marqueecontent)
+ns_marquee.document.close()
+actualwidth=ns_marquee.document.width
+}
+lefttime=setInterval("scrollmarquee()",20)
+}
+window.onload=populate
+
+function scrollmarquee(){
+if (iedom){
+if (parseInt(cross_marquee.style.left)>(actualwidth*(-1)+8))
+cross_marquee.style.left=parseInt(cross_marquee.style.left)-copyspeed+"px"
+else
+cross_marquee.style.left=parseInt(marqueewidth)+8+"px"
+
+}
+else if (document.layers){
+if (ns_marquee.left>(actualwidth*(-1)+8))
+ns_marquee.left-=copyspeed
+else
+ns_marquee.left=parseInt(marqueewidth)+8
+}
+}
+
+if (iedom||document.layers){
+with (document){
+document.write('<table border="0" cellspacing="0" cellpadding="0"><td>')
+if (iedom){
+write('<div style="position:relative;width:'+marqueewidth+';height:'+marqueeheight+';overflow:hidden">')
+write('<div style="position:absolute;width:'+marqueewidth+';height:'+marqueeheight+';background-color:'+marqueebgcolor+'" onMouseover="copyspeed=pausespeed" onMouseout="copyspeed=marqueespeed">')
+write('<div id="iemarquee" style="position:absolute;left:0px;top:0px"></div>')
+write('</div></div>')
+}
+else if (document.layers){
+write('<ilayer width='+marqueewidth+' height='+marqueeheight+' name="ns_marquee" bgColor='+marqueebgcolor+'>')
+write('<layer name="ns_marquee2" left=0 top=0 onMouseover="copyspeed=pausespeed" onMouseout="copyspeed=marqueespeed"></layer>')
+write('</ilayer>')
+}
+document.write('</td></table>')
+}
+}
+</script>
+
+
+
+
+
+
+
+				</div>
+			</div>
+			<div id="sidebar-div">
+						<h4>Navigate <strong>Here</strong></h4>
+                	    <ul class="blocklist">
+                    		<li><a href="../home">Home</a></li>
+                      		<li><a href="../challenges">Challenges</a></li>
+                  			<li><a href="../ranks">Ranks</a></li>
+							<li><a href="../techtalks">Tech Talks</a></li>
+                      		<li><a href="../messages">Contact Us</a></li>
+                      		<li><a href="../about_us">About Us</a></li>
+                    	</ul>
+			</div>
+			<div id="sidebar-div">
+			{Register}
+			</div>
+
+			<div id="sidebar-div">
+				
+				<h4>Hot <strong>Topics</strong></h4>
+				{Hot-Topics}
+
+
+			</div>
+		</div>
+		<div id="content">
+			{Page-Content}
+		</div>
+	</div>
+	<div id="footer">
+		<div id="footer-box">
+			<div id="footercolumn" class="leftcolumn">
+				<h4>About cOdErZ</h4>
+            	<p>
+               		cOdErS upholds the motto of providing information and knowledge of latest technologies and concepts regarding computers among the students and nurturing them to progress their knowledge in computer programming.
+            	</p>
+			</div>
+			<div id="footercolumn" class="middlecolumn">
+    			<h4>SiteMap</h4>
+        			<ul>
+        				<li><a href="../index">Home</a></li>
+            			<li><a href="../challenges">Challenges</a></li>
+            			<li><a href="../ranks">Ranks</a></li>
+            			<!--<li><a href="#">Tutorials</a></li>-->
+            			<li><a href="../techtalks">Tech Talks</a></li>
+            			<li><a href="../messages">Contact Us</a></li>
+            			<li><a href="../about_us">About Us</a></li>
+					</ul>
+			</div>
+			<div id="footercolumn" class="middlecolumn">
+    			<h4>Developing Team</h4>
+        		<ul>
+        			<li><a href="#">Ankur Kesharwani(B.Tech IIIrd Year, IT)</a></li>
+    			</ul>
+			</div>
+			<div id="footercolumn" class="rightcolumn">
+       			<h4>Is cOdErS usefull?</h4>
+
+      				<ul>
+       					<li><a href="#?rating=1">Yes, very much usefull.</a></li>
+       					<li><a href="#?rating=2">No, but website is ok.</a></li>
+          				<li><a href="#?rating=3">No, not at all usefull.</a></li>
+
+        			</ul>
+
+			</div>
+
+		</div>
+	</div>
+
+
+
+	
+</body>
+
+</html>

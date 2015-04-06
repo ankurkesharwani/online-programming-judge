@@ -1,0 +1,85 @@
+﻿#header
+{
+	margin: 0 auto;
+	height: 111px;
+	width:960px;
+	position:relative;
+
+}
+#header h1
+{
+	color: #F97B27;
+	padding-top: 40px;
+	font-size: 40px;
+	font-weight: normal;
+	font-family: Lucida,"Lucida Sans",Geneva,Arial,sans-serif;
+	text-decoration: none;
+	letter-spacing: 0px;
+	float: left;
+	text-shadow: 1px 1px #111;
+	text-shadow: 6px 6px 4px #000000;
+	letter-spacing: 1px;
+}
+#header h1 colored
+{
+	color: #eee;
+	letter-spacing: 1px;
+}
+#header h2
+{
+	color: #eee;
+	float: left;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 25px;
+	font-weight: normal;
+	letter-spacing: 0;
+	margin-left: 5px;
+	margin-top: 55px;
+	padding-bottom: 0;
+	padding-left: 10px;
+	text-shadow: 6px 6px 4px #000000;
+	letter-spacing: 1px;
+}
+#header #status
+{
+	margin: 0 auto;
+	padding: 10px;
+	float: right;
+	border-radius: 4px;
+	background-color: #000000;
+	margin-top: 5px;
+}
+#header #status h1
+{
+	color: #F97B27;
+	font-size: 15px;
+	font-weight: normal;
+	font-family: Lucida,"Lucida Sans",Geneva,Arial,sans-serif;
+	text-decoration: none;
+	text-shadow: 1px 1px #111;
+	padding:0px;
+	letter-spacing: 1px;
+}
+#header #status h1 colored
+{
+	color: #eee;
+	letter-spacing: 1px;
+}
+#header #status a {
+	text-decoration: none;
+	letter-spacing: 1px;
+	font-size: 15px;
+	color: #F97B27;
+}
+#header #status a:hover {
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+

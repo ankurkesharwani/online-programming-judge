@@ -1,0 +1,45 @@
+
+<div id="message">
+<img src="../resources/images/signboard.jpg" class="floatleft" alt="signboard" />
+<h3><strong><orange>cOdE</orange><grey>rS</grey></strong><grey> Think Programming!</grey></h3>
+<p>cOdErS upholds the motto of providing information and knowledge of latest technologies and concepts 
+regarding computers among the students and nurturing them to progress their knowledge in computer programming.<p>
+</div>
+<br />
+<br />
+<h3><grey>Our</grey><orange> Objectives</orange></h3>
+<br />
+<div id="message">
+<img src="../resources/images/learn.jpg" class="floatleft" alt="signboard" />
+<h4><grey>Learn new algorithms and apply them in programming</grey></h4>
+<p>With cOdErS your can learn new algorithms and prolblem solving techniques.You will be able to
+better prepare yourself for competions and various exmas.</p>
+</div>
+<br />
+<div id="message">
+<img src="../resources/images/cafe.jpg" class="floatleft" alt="signboard" />
+<h4><grey>Build up a problem solving community</grey></h4>
+<p>cOdErS is also a problem solving community, to bring fellow programmers under one roof where they can discuss programming
+related problems.
+</p>
+</div>
+<br />
+<hr />
+<div id="message">
+<img src="../resources/images/contest.jpg" class="floatleft" alt="signboard" />
+<h4><grey>Organise online programming contests on regular basis</grey></h4>
+<p>
+At cOdErS we organise online programming contests on regular basis so that every one gets a fair chance to compete with others and test their skills and levels.
+</p>
+</div>
+<br />
+<br />
+<br />
+<!--
+<div id="message">
+<img src="../resources/images/join.jpg" class="floatleft" alt="signboard" />
+<h4><grey>Come, join cOdErS</grey></h4>
+<p>
+Come and join the cOdErS community, get to know fellow programmers, participate in Challenges, Contests & Tech Talks. We have so much to offer and you are just one step away.<Br><br>Click <a href="../register">here</a> to register.   
+</p>
+</div>-->

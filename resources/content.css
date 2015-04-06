@@ -1,0 +1,331 @@
+﻿#content
+{
+	float:left;
+	width:660px;
+	display:block;
+	padding-top:40px;
+	position:relative;
+	margin: 0px auto;
+}
+
+#content p
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #333333;
+	display: block;
+	text-align: justify;
+	line-height: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	letter-spacing: 1px;
+}
+#content a
+{
+	text-decoration:none;
+	color:#F87B27;
+	padding: 5px;
+	letter-spacing: 1px;
+}
+#content a:hover
+{
+	text-decoration:underline;
+}
+#content img.floatleft
+{
+	float:left;
+	display:block;
+	margin-right:30px;
+}
+#content img.floatright
+{
+	float:right;
+	display:block;
+	margin-left:30px;
+}
+#message
+{
+	display: table-cell;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+#bubble
+{
+	border: 3px outset #FFC68C;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 35px;
+	margin-left: 130px;
+	padding-top: 5px;
+	background-color: #FFC68C;
+}
+#comment_box
+{
+	border: 1px outset #FFC68C;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 10px;
+	padding-top: 5px;
+	margin-bottom:5px;
+	background-color: #FFC68C;
+}
+#content fieldset
+{
+	display: block;
+	border: none;
+	margin-top:25px;
+	margin-bottom:20px;
+}
+#content fieldset form 
+{
+	border: 1px solid #ddd;
+	padding: 20px;
+	border-radius:6px;
+
+}
+#content fieldset p
+{
+	padding:0px;
+	margin-top:20px;
+	margin-bottom:20px;
+	letter-spacing: 1px;
+}
+#content fieldset p label
+{
+	float: left;
+	width: 150px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	margin-top:5px;
+	letter-spacing: 1px;
+	color: #333333;
+}
+#content form input, form select, form textarea
+{
+	padding: 5px;
+	color: #333333;
+	border: 1px solid #ddd;
+	border-right:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	background-color:#fff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	border-radius:4px;
+	letter-spacing: 1px;
+	width:40%;
+}
+
+#content form input.submitbutton 
+{
+	color: #ffffff;
+	font-weight: bold;
+	padding: 6px 8px;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-shadow:1px 1px #CE5709;
+	background: #F87B27 url('images/frontpage-link.png') repeat-x scroll top left;
+	border: none;
+	margin-left:5px;
+	margin-right:5px;
+	letter-spacing: 1px;
+	width:auto;
+}
+#content form input.resetbutton 
+{
+	color: #ffffff;
+	font-weight: bold;
+	padding: 6px 8px;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-shadow:1px 1px #CE5709;
+	background: #F87B27 url('images/frontpage-link.png') repeat-x scroll top left;
+	border: none;
+	margin-right:5px;
+	margin-left:150px;
+	letter-spacing: 1px;
+	width:auto;
+}
+#content form input.submitbutton:hover
+{
+	color: #4B4B4B;
+
+}
+#content form input.resetbutton:hover
+{
+	color: #4B4B4B;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* HEADINGS */
+#content h1 {
+	color: #000000;
+	font-size: 35px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-bottom: 10px;
+	font-weight: normal;
+	margin-top: 10px;
+		letter-spacing: 1px;
+}
+#content h2 
+{
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	font-weight: normal;
+	padding: 0 0 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	letter-spacing: 1px;
+
+}
+#content h3
+{
+	color: #000000;
+	font-size: 20px;
+	font-weight: normal;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	letter-spacing: 1px;
+
+}
+#content h4 
+{
+	color: #000000;
+	font-size: 18px;
+	font-weight: normal;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	letter-spacing: 1px;
+}
+#content h5 
+{
+	color: #000000;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 13px;
+	font-family: Arial, Helvetica, sans-serif;
+	letter-spacing: 1px;
+}
+#content orange 
+{
+	color: #D5570A;
+
+}
+#content grey 
+{
+	color: #4B4B4B;
+
+
+}
+/* HEADINGS END*/
+
+/* TABLE */
+#content table 
+{
+	width: 100%;
+	text-align: left;
+	margin-top: 20px;
+	margin-bottom:20px;
+}
+#content th, td
+{
+	padding: 7px 7px;
+}
+#content th
+{
+	border-radius: 6px 6px 0px 0px;
+}
+#content th
+{
+	color: #fff;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-shadow:1px 1px 2px #CE5709;
+	background: #F87B27 url('images/frontpage-link.png') repeat-x scroll top left;
+	letter-spacing: 1px;
+}
+#content td
+{
+	border-bottom: 1px solid #ccc;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color:#4B4B4B;
+	letter-spacing: 1px;
+
+}
+/* TABLE END*/
+
+
+
+
+#button-left
+{
+	float: left;
+	height:40px;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+#button-left a
+{
+	font-weight:bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	color:#fff;
+	font-size: 12px;
+	padding: 10px 10px 10px 10px;
+	background:#FFF url('images/button.png') repeat-x;
+	display:block;
+	border-radius:6px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-shadow:1px 1px #CE5709;
+	letter-spacing: 1px;
+}
+#button-left a:hover {
+	background: #F97B27;
+}
+
+#button-right
+{
+	float:right;	
+	height:40px;
+	margin-top:20px;
+	margin-bottom:20px;
+
+}
+#button-right a
+{
+	font-weight:bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	color:#fff;
+	display: block;
+	font-size: 12px;
+	padding: 10px 10px 10px 10px;
+	background:#FFF url('images/button.png') repeat-x;
+	border-radius:6px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-shadow:1px 1px #CE5709;
+	letter-spacing: 1px;
+}
+#button-right a:hover {
+	background: #F97B27;
+}
+

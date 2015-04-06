@@ -1,0 +1,122 @@
+﻿#login
+{
+	margin: 0px auto;
+	position: absolute;
+	width: 300px;
+	height: 180px;
+	float: right;
+	top: 132px;
+	right: 5px;
+	overflow: hidden;
+}
+#login round-heading
+{
+	font-family: Arial, Helvetica, sans-serif;
+	letter-spacing: 1px;
+	border: 1px solid #F87B27;
+	display: block;
+	border-radius: 10px 10px 0px 0px;
+	padding: 5px;
+	background: #F87B27 url('images/frontpage-link.png') repeat-x scroll top left;	
+	text-align:center;
+}
+#bordered-panel
+{
+	border-style: solid solid none solid;
+	border-width: 1px;
+	border-color: #FFFFFF;
+	width: 298px;
+	height: 100%;
+	background-color: #FFFFFF;
+}
+#login a
+{
+	color: #fff;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-shadow:1px 1px 2px #CE5709;
+	font-weight:bold;
+	letter-spacing: 1px;
+	display:block;
+}
+#login p
+{
+	color: #000000;
+	font-size: 8px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	display:block;
+	padding-top:5px;
+	text-align:center;
+}
+#login a:hover
+{
+	color: #4B4B4B;
+}
+#login fieldset
+{
+	display: block;
+	border: none;
+
+}
+#login fieldset form 
+{
+	padding: 15px;
+}
+#login fieldset p
+{
+	padding:5px;
+	
+}
+#login fieldset p label
+{
+	float: left;
+	width: 118px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	letter-spacing: 1px;
+	text-transform:none;
+	color:#4b4b4b;
+	text-align:left;
+}
+#login form input, form select, form textarea
+{
+	padding: 5px;
+	color:#4b4b4b;
+	border: 1px solid #ddd;
+	border-right:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	background-color:#fff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	border-radius:4px;
+	letter-spacing: 1px;
+	width:120px;
+}
+#login form input.formbutton 
+{
+	color: #ffffff;
+	font-weight: bold;
+	padding: 6px 8px;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-shadow:1px 1px #CE5709;
+	background: #F87B27 url('images/frontpage-link.png') repeat-x scroll top left;
+	border: none;
+	width: auto;
+	overflow: visible;
+	float:right;
+	margin:5px;
+	letter-spacing: 1px;
+}
+#login form input.formbutton:hover
+{
+	color: #4B4B4B;
+
+}

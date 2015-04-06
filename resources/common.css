@@ -1,0 +1,18 @@
+﻿*
+{
+	margin:0px;
+	padding:0px;
+	border:none;
+}
+body
+{
+	background-image: url('images/body.png');
+	background-repeat: repeat-x;
+	background-position: left top;
+}
+#mainbody
+{
+	margin:0px auto;
+	width:960px;
+	position: relative;
+}
